@@ -14,6 +14,12 @@ function isPlainObject(value: any): value is object {
     return Object.prototype.toString.call(value) === '[object Object]'
 };
 
+/*
+function isPlainObject(value: unknown): boolean {
+  return value instanceof Object && !Array.isArray(value);
+}
+  */
+
 console.log(isPlainObject(1));
 console.log(isPlainObject('hexlet'));
 console.log(isPlainObject({}));
