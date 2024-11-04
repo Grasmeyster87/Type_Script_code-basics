@@ -23,7 +23,7 @@ function isPlainObject(value: unknown): boolean {
 console.log(isPlainObject(1));
 console.log(isPlainObject('hexlet'));
 console.log(isPlainObject({}));
-console.log(isPlainObject({ name: 'code-basics' });
+console.log(isPlainObject({ name: 'code-basics' }));
 console.log(isPlainObject([1, 8]));
 
 isPlainObject(1); // false
