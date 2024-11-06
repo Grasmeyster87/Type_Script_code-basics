@@ -48,6 +48,12 @@ function lastIndex(
     return val4;
 }
 
+/*
+function lastIndex(str: string, char: string): number | null {
+  const index = str.lastIndexOf(char);
+  return index === -1 ? null : index;
+}
+  */
 const str = 'test';
 lastIndex(str, 't'); // 3
 lastIndex(str, 'p'); // null
