@@ -35,27 +35,27 @@ class Point34 {
   // Свойство есть, а поля такого нет
   console.log(p.inspect); // (2, 5)*/
 
-  /*# Задание
+/*# Задание
 
   Реализуйте класс CustomFile, в конструктор которого передается объект с полями: name — именем файла, и size — размером в байтах. Внутри класса определите метод toString(), который должен вернуть форматированную строку в формате <file-name> (<size> bytes).
 */
 type CustomFileOptions = {
     name: string;
     size: number;
-  };
-  class CustomFile {
+};
+class CustomFile {
     name: string;
     size: number;
 
-     constructor({ name, size }: CustomFileOptions) {
-      this.name = name;
-      this.size = size;
+    constructor({ name, size }: CustomFileOptions) {
+        this.name = name;
+        this.size = size;
     }
-  
+
     toString() {
-      return `${this.name} (${this.size} bytes)`
+        return `${this.name} (${this.size} bytes)`;
     }
-  }
-  
-  const file = new CustomFile({ name: 'open-world.jpeg', size: 1000 });
-  console.log(file.toString()); // open-world.jpeg (1000 bytes)
+}
+
+const file = new CustomFile({ name: 'open-world.jpeg', size: 1000 });
+console.log(file.toString()); // open-world.jpeg (1000 bytes)

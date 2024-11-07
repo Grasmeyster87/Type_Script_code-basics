@@ -127,3 +127,4 @@ class Point362 {
     height: 300,
   });
   console.log(imageCustomFile.toString()); // image.png (100 bytes) 200x300
+  
