@@ -53,6 +53,7 @@ class UserResponse {
     return arr.map(user => new UserResponse(user));
   }
 }
+*/
 class UserResponse {
     constructor(public user: string) {}
   
@@ -64,4 +65,3 @@ class UserResponse {
 const response = UserResponse.fromArray(['user1', 'user2', 'user3']);
 console.log(response[0].user); // user1
 console.log(response[0] instanceof UserResponse); // true
-*/
