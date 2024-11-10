@@ -71,6 +71,7 @@ abstract class Clock {
 
   
 // 24-часовой формат
+/*
 class Clock24 extends Clock {
     render(): string {
       const currentHour = this.hours % 24;
@@ -87,6 +88,7 @@ class Clock24 extends Clock {
   console.log(clock24.render()); // => '00 : 00'
   
   // 12-часовой формат
+  /*
   class Clock12 extends Clock {
     render(): string {
       const timeType = this.hours > 12 ? 'PM' : 'AM';
@@ -106,3 +108,4 @@ class Clock24 extends Clock {
   console.log(clock12.render()); // => '11 : 59 PM'
   clock12.tick();
   console.log(clock12.render()); // => '12 : 00 AM'
+  */
