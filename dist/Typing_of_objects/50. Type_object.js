@@ -23,7 +23,5 @@ var user50 = {
     email: 'tirion@lanister.got',
     age: 35,
 };
-console.log(
-extract(user50, ['name', 'age'])
-);
+extract(user50, ['name', 'age']);
 //# sourceMappingURL=50.%20Type_object.js.map
